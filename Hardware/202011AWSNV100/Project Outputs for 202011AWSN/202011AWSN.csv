@@ -1,0 +1,56 @@
+Comment,Description,Designator,Footprint,value,Quantity,商家
+SN74LVC1G80,Single Positive-Edge-Triggered D-Type Flip-Flop,U11,SN74LVC1G80-SC70,,1,
+S9013,NPN General Purpose Amplifier,Q3,SOT-23,,1,
+Res,电阻,"R1, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R46, R47",R0805,"10K, NC, 100R, 1K, NC/470R, NC/1K, 0R, 2M, 270K, NC(1M8), NC(200K)",38,
+Res,电阻,"R2, R3, R4, R5, R6, R7, R8, R9, R10",R0603,"4.7K, NC, 0R",9,
+LED,,"LED1, LED2, LED3, LED4",LED1206,,4,
+Cap,,"C2, C3, C4, C5, C6, C7, C8",C0603,"0.1uf, 1uf",7,
+Cap,,"C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C22, C24, C25, C27, C28, C29, C30, C31, C32, C34",C0805,"0.1uf, 22pf, 10uf, 1uf, 2.2uf",22,
+Button,轻触开关,"K1, K2, K3, K4, K5",Button-SMT-Small,,5,
+,,,,,,
+,,,,,,
+SPX1117,800mA Low Dropout Voltage Regulator,U14,SPX1117-SOT223,,1,
+SMA,,J1,SMA-3,,1,优信
+SI2302,N-Channel 20 V (D-S) MOSFET,"Q1, Q2, Q4, Q5",SI2302-SOT23,,4,优信
+SI2301,P-Channel 20 V (D-S) MOSFET,Q6,SI2301-SOT23,,1,优信
+USB,,"USB1, USB2",USB-Mini-SMT,,2,优信
+XTAL,Crystal Oscillator,Y2,XTAL-3215,32.768KHz,1,优信
+XTAL,无源晶振,Y1,XTAL-3225,16.000M,1,优信
+TP4056,1A 线性锂离子电池充电器,U8,TP4056-SOIC8,,1,优信
+SN74LV4051,SN74LV4051A 8-Channel Analog Multiplexers and Demultiplexers,U7,SN74LV4051-TSSOP16,,1,优信
+STM8L151G4U6,"8-bit ultra-low-power MCU, up to 32 KB Flash, 1 KB Data EEPROM,RTC, LCD, timers, USART, I2C, SPI, ADC, DAC, comparators",U5,STM8L151G4U6-UFQFN28,,1,优信
+Diode,,D1,SMA/DO-214AC,SS14,1,优信
+Cap2,,C1,C6.3X7.7-SMD,470uf,1,优信
+Cap2,,"C21, C33",C4X5.4-SMD,47uf,2,优信
+XH2.54-2P,,"P1, P12, P14",XH2.54-2P,,3,优信
+Inductor Iron,Magnetic-Core Inductor,L1,L04042,2.2uH 3.0A,1,优信
+Inductor Iron,Magnetic-Core Inductor,L2,L10104,6.8uH 4.8A,1,优信
+Fuse,,"F1, F2",F1812,"6V@2.6A, 6V@1.1A",2,优信
+ESP-12F,,MOD3,MODULE ESP-12F,,1,优信
+OLED,OLED显示模块,MOD1,MODULE OLED-4P-0.96,,1,优信
+土壤湿度模块,,,,,,优信
+XH2.54端子&线,,,,,,优信
+433M天线,,,,,,优信
+,,,,,,
+TPS61032,TPS6103x 96% Efficient Synchronous Boost Converter With 4A Switch,U12,TPS61030-TSSOP16,,1,亨源
+XC6206,Low ESR Cap. Compatible Positive Voltage Regulators,U13,XC6206-SOT23,,1,亨源
+FM24CL64,64Kb Serial 3V FRAM Memory,U6,FM24CL64-SOIC8,,1,亨源
+CH340C,USB 转串口芯片,U15,CH340C-SOP16,,1,亨源
+,,,,,,
+Tantalum,,C23,C1210T-3528B,47uf,1,科天微
+Tantalum,,"C26, C35, C36",C2917T-7343D,220uf,3,科天微
+,,,,,,
+SX1278,,MOD2,MODULE SX1278,,1,聚而硕
+,,,,,,
+TPS61200,TPS61200x Low Input Voltage Synchronous Boost Converter With 1.3-A Switches,U10,TPS61200-VSON10,,1,HXK
+,,,,,,
+BME280,Combined humidity and pressure sensor,U1,BME280-LGA8,,1,XY
+BMM150,THREE-AXIS GEOMAGNETIC SENSOR,U4,BMM150-BGA12+,,1,XY
+BMI160,"Small, low-power Inertial Measurement Unit",U3,BMI160-LGA14,,1,XY
+MAX44009,Industry’s Lowest-Power Ambient Light Sensor with ADC,U2,MAX44009-UTDFN6,,1,XY
+,,,,,,
+MAX17043,1-Cell/2-Cell Fuel Gauge with ModelGauge and Low-Battery Alert,U9,MAX17043-TDFN8,,1,JX
+,,,,,,
+锂电池小白头,,,,,,DX
+,,,,,,
+余弦修正器,,,,,,KX
