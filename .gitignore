@@ -2,3 +2,7 @@
 
 /Hardware/*/__Previews/
 **.SchDocPreview
+
+
+# IAR
+/Software/*/EWSTM8/STM8L15X_MD(STM8L15xx4_6)/*
