@@ -26,6 +26,10 @@
 #define SOIL_CHX_50K_CHX_mV   450
 // FIT
 #define Soil_R(x) (0.0001*(float)x*(float)x - 0.2243*(float)x + 128.83)*1000.0
+// BAT_ADC
+#define BAT_ADC_R26     510.2
+#define BAT_ADC_R27     995.3
+
 
 // App Init
 void App_Sys_Init();
@@ -40,7 +44,10 @@ uint16_t App_ADC_Read_Soil_CH2();
 uint16_t App_ADC_Read_Soil_CH3();
 int8_t App_Soil_Humi(uint16_t adc);
 // Pump
-#define APP_Pump_Control(x)         GPIO_PUMP_CTL(x)
+#define App_Pump_Control(x)         GPIO_PUMP_CTL(x)
+// Bat
+#define App_Bat_Control(x)    GPIO_ADC_CTL(x)
+uint16_t App_Bat_Volt();
 // Delay
 void delay_ms(__IO uint16_t msCount);
 

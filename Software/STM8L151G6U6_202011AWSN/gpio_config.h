@@ -15,6 +15,8 @@
 
 #define GPIO_PUMP_CTL(x)    GPIO_WriteBit(GPIOA, GPIO_Pin_4, (x == 1) ? SET : RESET)
 
+#define GPIO_OLED_CTL(x)    GPIO_WriteBit(GPIOC, GPIO_Pin_4, (x == 1) ? SET : RESET)
+
 
 void GPIO_Config_Init(void);
 

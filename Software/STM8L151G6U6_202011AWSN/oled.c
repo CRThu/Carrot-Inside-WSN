@@ -2,7 +2,7 @@
 #include "oledfont.h"
 #include "iic_config.h"
 
-#define _SW_IIC_
+//#define _SW_IIC_
 
 #ifdef _SW_IIC_
 void IIC_Start()

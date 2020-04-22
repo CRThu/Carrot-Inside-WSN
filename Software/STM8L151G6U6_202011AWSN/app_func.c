@@ -9,7 +9,8 @@ void App_Sys_Init()
 
 void App_OLED_Init()
 {
-    //IIC_Config_Init();
+    IIC_Config_Init();
+    GPIO_OLED_CTL(1);
     OLED_Init();
     OLED_Clear();
 }
@@ -68,6 +69,13 @@ int8_t App_Soil_Humi(uint16_t adc)
         return -2;  // Open
     else
         return ((float)adc - (float)SOIL_CHX_30K_CHX_mV)/((float)SOIL_CHX_3K3_CHX_mV - (float)SOIL_CHX_30K_CHX_mV) * (float)100;
+}
+
+// BAT_ADC
+uint16_t App_Bat_Volt()
+{
+    uint16_t Vref = ADC_Config_Read_Vref();
+    return (float)ADC_Config_Read_CH17(Vref)/(float)BAT_ADC_R27*(float)(BAT_ADC_R26 + BAT_ADC_R27);
 }
 
 

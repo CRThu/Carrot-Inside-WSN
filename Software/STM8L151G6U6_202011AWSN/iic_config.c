@@ -22,7 +22,7 @@ void IIC_Config_Init()
 //    }
 
     CLK_PeripheralClockConfig(CLK_Peripheral_I2C1, ENABLE);     // CLOCK
-    I2C_Init(I2C1, 400000, 0x00,                                // (0x00 unused)
+    I2C_Init(I2C1, 100000, 0x00,                                // (0x00 unused)
            I2C_Mode_I2C, I2C_DutyCycle_2,
            I2C_Ack_Enable, I2C_AcknowledgedAddress_7bit);
 

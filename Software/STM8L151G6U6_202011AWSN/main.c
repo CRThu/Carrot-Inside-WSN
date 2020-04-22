@@ -52,11 +52,22 @@ void main(void)
     App_Sys_Init();
     App_OLED_Init();
 
-    OLED_ShowString(0,0,"String",8);
+    OLED_ShowString(0,0,"PUMP ON ",8);
+    App_Pump_Control(1);
+    delay_ms(250);
+    App_Pump_Control(0);
+    OLED_ShowString(0,0,"PUMP OFF",8);
+
+    App_Bat_Control(1);
 
     /* Infinite loop */
     while (1)
     {
+        OLED_ShowNum(0,1,ADC_Config_Read_Vref(),5,8);
+        OLED_ShowNum(0,2,ADC_Config_Read_CH17(3327),5,8);
+        OLED_ShowNum(0,3,App_Bat_Volt(),5,8);
+
+
         if(!GPIO_KEY1())
         {
             GPIO_LED1(1);

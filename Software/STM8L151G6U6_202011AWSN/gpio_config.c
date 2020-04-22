@@ -27,4 +27,7 @@ void GPIO_Config_Init(void)
 
     // PUMP_CTL
     GPIO_Init(GPIOA, GPIO_Pin_4, GPIO_Mode_Out_PP_Low_Slow);    // PUMP_CTL
+
+    // OLED_CTL
+    GPIO_Init(GPIOC, GPIO_Pin_4, GPIO_Mode_Out_PP_Low_Slow);    // OLED_CTL
 }
